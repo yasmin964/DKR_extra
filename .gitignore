@@ -16,3 +16,6 @@ Pipfile.lock
 
 .*
 !.gitignore
+
+*.pkl
+*.pickle
