@@ -1,0 +1,17 @@
+Area under the Curve (AUC) for prediction of new edge_weights of 1
+,cutoff=0,cutoff=5,cutoff=25
+"delta=1, minedge=1",0.8475,0.7985,0.7553
+"delta=1, minedge=3",0.9821,0.8998,0.0000
+"delta=3, minedge=1",0.7605,0.7733,0.7755
+"delta=3, minedge=3",0.8520,0.8540,0.6928
+"delta=5, minedge=1",0.7631,0.7329,0.7480
+"delta=5, minedge=3",0.7913,0.8087,0.8100
+
+Area under the Curve (AUC) for prediction of new edge_weights of 3
+,cutoff=0,cutoff=5,cutoff=25
+"delta=1, minedge=1",0.8475,0.7985,0.7553
+"delta=1, minedge=3",0.9821,0.8998,0.0000
+"delta=3, minedge=1",0.7605,0.7733,0.7755
+"delta=3, minedge=3",0.8520,0.8540,0.6928
+"delta=5, minedge=1",0.7631,0.7329,0.7480
+"delta=5, minedge=3",0.7913,0.8087,0.8100

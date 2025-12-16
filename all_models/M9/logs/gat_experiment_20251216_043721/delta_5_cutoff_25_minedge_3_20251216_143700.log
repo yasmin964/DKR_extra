@@ -1,0 +1,35 @@
+[2025-12-16 14:37:00] Starting processing for delta_5_cutoff_25_minedge_3
+[2025-12-16 14:37:00] Config: GATConfig(embedding_dim=256, hidden_dim=256, dropout=0.3, lr=0.001, weight_decay=0.0001, epochs=3, batch_size=1024, num_heads=4, dnn_hidden_dim=256)
+[2025-12-16 14:37:01] Dataset stats:
+[2025-12-16 14:37:01]   Num nodes: 64706
+[2025-12-16 14:37:01]   Train edges: 3342034
+[2025-12-16 14:37:01]   Test pairs: 10000000
+[2025-12-16 14:37:01]   Positive test pairs: 11591 (0.1%)
+[2025-12-16 14:37:01]   Negative test pairs: 9988409 (99.9%)
+[2025-12-16 14:37:01] Dataset: delta_5_cutoff_25_minedge_3
+[2025-12-16 14:37:01] Training GAT: nodes=64706, train_edges=3406740, test_pairs=10000000
+[2025-12-16 14:37:01] Using 50000 samples for evaluation
+[2025-12-16 14:37:01] 
+============================================================
+[2025-12-16 14:37:01] Starting epoch 1/3
+[2025-12-16 14:37:01] ============================================================
+[2025-12-16 14:38:14] Training completed. Starting evaluation...
+[2025-12-16 14:38:48] Epoch 1: Avg Loss = 0.4629, AUC = 0.6560
+[2025-12-16 14:38:48]   ✅ Saved best model to models/best_delta_5_cutoff_25_minedge_3.pth (AUC: 0.6560)
+[2025-12-16 14:38:48] 
+============================================================
+[2025-12-16 14:38:48] Starting epoch 2/3
+[2025-12-16 14:38:48] ============================================================
+[2025-12-16 14:40:01] Training completed. Starting evaluation...
+[2025-12-16 14:40:35] Epoch 2: Avg Loss = 0.4387, AUC = 0.7384
+[2025-12-16 14:40:35]   ✅ Saved best model to models/best_delta_5_cutoff_25_minedge_3.pth (AUC: 0.7384)
+[2025-12-16 14:40:35] 
+============================================================
+[2025-12-16 14:40:35] Starting epoch 3/3
+[2025-12-16 14:40:35] ============================================================
+[2025-12-16 14:41:52] Training completed. Starting evaluation...
+[2025-12-16 14:42:26] Epoch 3: Avg Loss = 0.4087, AUC = 0.8100
+[2025-12-16 14:42:26]   ✅ Saved best model to models/best_delta_5_cutoff_25_minedge_3.pth (AUC: 0.8100)
+[2025-12-16 14:42:26] Training completed for delta_5_cutoff_25_minedge_3
+[2025-12-16 14:42:26] Best AUC: 0.8100 at epoch 3
+[2025-12-16 14:42:26] Completed delta_5_cutoff_25_minedge_3 with AUC: 0.8100

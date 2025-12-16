@@ -1,0 +1,32 @@
+{
+  "dataset": "delta_3_cutoff_5_minedge_3",
+  "timestamp": "20251216_140851",
+  "epochs": [
+    {
+      "epoch": 1,
+      "loss": 0.5357513323426246,
+      "auc": 0.7605515895671336
+    },
+    {
+      "epoch": 2,
+      "loss": 0.44924355745315553,
+      "auc": 0.8194776795813064
+    },
+    {
+      "epoch": 3,
+      "loss": 0.4304892852902412,
+      "auc": 0.8540112737003929
+    }
+  ],
+  "config": {
+    "embedding_dim": 256,
+    "hidden_dim": 256,
+    "dropout": 0.3,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "epochs": 3,
+    "batch_size": 1024,
+    "num_heads": 4
+  },
+  "final_auc": 0.8540112737003929
+}
